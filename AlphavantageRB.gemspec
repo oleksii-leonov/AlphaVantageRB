@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.platform	   = Gem::Platform::RUBY
   s.require_paths = ["lib"]
   s.files         = FileList["lib/*", "spec/**/*", "AlphavantageRB.gemspec", "Gemfile", "LICENSE.md", "README.md"].to_a
-  s.add_dependency "httparty", "0.15.6"
+  s.add_dependency "httparty", "0.21.0"
   s.add_dependency "humanize", "1.7.0"
 end
